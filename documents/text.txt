@@ -1,0 +1,140 @@
+﻿TEMP WAVE
+
+今日は昨日より暑い?寒い？
+気温にそったグラフィックと音でお知らせします
+
+Download the App Store
+Android App On Google Play
+
+What’s temp wave?
+
+TEMPERATURE＝気温
+WAVEFORM＝波形
+昨日の気温と今日の気温をビジュアライズ。
+視覚的に気温をお知らせします。
+
+音の高さでも今日の気温をお知らせしてくれる、
+全く新しいお天気とアラームのアプリです。
+
+
+今日の気温　昨日の気温
+
+画面上部と下部に今日と昨日の最高気温・
+最低気温が表示されます
+現在地の取得
+
+GPSをONにすれば自動的に現在地の
+天気と時間を取得します
+地域の追加
+
+地域の追加を手動で行えば、スワイプで
+現在地以外の天気も確認できます
+The intuitively
+weather now
+
+時間と天気によって、背景が変化します。
+世界の美しい写真を見ながら、今の天気を直感的に知る事ができます。
+
+自分で撮影した写真を設定することも可能です。
+あなたのお気に入りの写真を追加し、自由にカスタマイズして下さい。
+
+
+Alarm
+
+朝の目覚め時、
+今日と昨日の気温を音でお伝えします。
+音の高さで気温を感じ、１日の流れを体感出来ます。
+
+天気や季節、気温で変化する多彩な音を聴きながら
+１日のスタートを迎える事ができます。
+
+
+To your liking
+
+アラームの設定も簡単です。
+
+一回だけのアラームはもちろん、平日、祝日のみ・特定の曜日設定も保存可能。
+ライフスタイルに合わせてカスタマイズできます。
+
+アラームの追加
+
+
+設定の変更
+
+
+曜日とスヌーズ
+
+もっと美しい体験を、あなたの手の中で
+
+Let's start TEMP WAVE
+
+download now
+
+Download the App Store
+Android App On Google Play
+
+
+■Noto Sans
+@font-face {
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 400;
+    src: local("Noto Sans CJK JP"),
+         url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.woff2) format('woff2'),
+         url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.woff) format('woff'),
+         url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Regular.otf) format('opentype');
+ }
+ @font-face {
+    font-family: 'Noto Sans JP Medium';
+    font-style: normal;
+    font-weight: 500;
+    src: local("Noto Sans CJK JP"),
+         url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Semibold.woff2) format('woff2'),
+         url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Semibold.woff) format('woff'),
+         url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-Semibold.otf) format('opentype');
+ }
+ @font-face {
+    font-family: 'Noto Sans JP DemiLight';
+    font-style: normal;
+    font-weight: 300;
+    src: local("Noto Sans CJK JP"),
+         url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-DemiLight.woff2) format('woff2'),
+         url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-DemiLight.woff) format('woff'),
+         url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansJP-DemiLight.otf) format('opentype');
+ }
+
+■meta
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TEMP WAVE - 気温にそったグラフィックと音でお知らせするスマートフォンアプリ -</title>
+    <meta name="description" content="TEMP WAVEは、昨日の気温と今日の気温をビジュアライズして、視覚的に気温をお知らせくれるアプリです。">
+    <meta property="og:title" content="TEMP WAVE - 気温にそったグラフィックと音でお知らせするスマートフォンアプリ -">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="#">
+    <meta property="og:image" content="images/common/ogimage.png">
+    <meta property="og:site_name" content="TEMP WAVE - 気温にそったグラフィックと音でお知らせするスマートフォンアプリ -">
+    <meta property="og:description" content="TEMP WAVEは、昨日の気温と今日の気温をビジュアライズして、視覚的に気温をお知らせくれるアプリです。">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="canonical" href="#">
+    <link rel="apple-touch-icon" href="images/common/touch-icon.png">
+    <link rel="shortcut icon" href="images/common/favicon.ico">
+
+■font-awesome
+https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
+
+
+■viewport切り替え
+
+<script src="http://code.jquery.com/jquery-3.2.1.js"></script>
+<script>
+var ua = navigator.userAgent;
+if ((ua.indexOf('iPhone') > 0) || ua.indexOf('iPod') > 0 || (ua.indexOf('Android') > 0 && ua.indexOf('Mobile') > 0)) { 
+	//スマホのとき
+	$('head').prepend('<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />');
+}else{ 
+	//PC・タブレットのとき
+	$('head').prepend('<meta name="viewport" content="width=1200" />');
+} 
+
+</script> 
+

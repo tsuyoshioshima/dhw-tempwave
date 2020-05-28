@@ -1,0 +1,51 @@
+﻿■Noto Sans
+
+@font-face {
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 400;
+    src: local("Noto Sans CJK JP"),
+         url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansCJKjp-Regular.woff2) format('woff2'),
+         url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansCJKjp-Regular.woff) format('woff'),
+         url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansCJKjp-Regular.otf) format('opentype');
+ }
+ 
+
+
+■meta
+
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEMP WAVE - 気温にそったグラフィックと音でお知らせするスマートフォンアプリ -</title>
+    <meta name="description" content="TEMP WAVEは、昨日の気温と今日の気温をビジュアライズして、視覚的に気温をお知らせくれるアプリです。">
+    <meta property="og:title" content="TEMP WAVE - 気温にそったグラフィックと音でお知らせするスマートフォンアプリ -">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="#">
+    <meta property="og:image" content="images/common/ogimage.png">
+    <meta property="og:site_name" content="TEMP WAVE - 気温にそったグラフィックと音でお知らせするスマートフォンアプリ -">
+    <meta property="og:description" content="TEMP WAVEは、昨日の気温と今日の気温をビジュアライズして、視覚的に気温をお知らせくれるアプリです。">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="apple-touch-icon" href="images/common/touch-icon.png">
+    <link rel="shortcut icon" href="images/common/favicon.ico">
+
+
+
+■viewportについて
+
+<script src="http://code.jquery.com/jquery-3.2.1.js"></script>
+<script>
+
+var ua = navigator.userAgent;
+if ((ua.indexOf('iPhone') > 0) || ua.indexOf('iPod') > 0 || (ua.indexOf('Android') > 0 && ua.indexOf('Mobile') > 0)) {
+
+// スマホのとき
+ 
+$('head').prepend('<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />');
+}else{
+
+// PC・タブレットのとき
+
+$('head').prepend('<meta name="viewport" content="width=1200" />');
+}
+</script>
+
