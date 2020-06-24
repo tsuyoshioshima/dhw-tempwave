@@ -52,7 +52,7 @@ img{
 -------------------------*/
 .header{
   padding: 112px 0 120px;
-  background-image: url(../images/header/bg-pc.png);
+  background-image: url(../images/header/header-bg.png);
   background-size: cover;
 }
 
@@ -133,7 +133,7 @@ img{
 *
 -------------------------*/
 .feature{
-  background: url("../images/section/bg-feature-pc.png") no-repeat center -110px;
+  background: url("../images/section/feature-bg.png") no-repeat center -110px;
   background-size: 610px auto;
 }
 .overlay{
