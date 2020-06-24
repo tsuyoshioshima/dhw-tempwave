@@ -1,6 +1,9 @@
 @charset "utf-8";
 
-/* @font-face{
+/*
+動画講義を収録した後に、ウェブフォント「NotoSansCJKjp-Regular」の配信が終了しました。
+このためエラーが発生することからこの箇所はコメントアウトとします。
+@font-face{
   font-family: 'Noto Sans JP';
   font-style: normal;
   font-weight: 400;
@@ -8,7 +11,8 @@
        url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansCJKjp-Regular.woff2) format('woff2'),
        url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansCJKjp-Regular.woff) format('woff'),
        url(//fonts.gstatic.com/ea/notosansjp/v5/NotoSansCJKjp-Regular.otf) format('opentype');
-} */
+}
+*/
 
 html{
   font-size: 62.5%; /* 16px x 62.5% = 10px */
@@ -175,7 +179,7 @@ img{
 }
 .section-box__item.text{
   width: 458px;
-  margin-top: 160px; /*？？？*/
+  margin-top: 160px;
 }
 .text{
   padding-left: 98px;
@@ -379,7 +383,7 @@ img{
   .section-box__item.text{
     width: 100%;
     padding: 72px 0 0;
-    margin-top: 0; /*？？？*/
+    margin-top: 0;
   }
   .section-box__item.eyecatch{
     width: 63.43%;
@@ -427,5 +431,3 @@ img{
     margin: 0 auto;
   }
 }
-
-/* 09 フッター */
