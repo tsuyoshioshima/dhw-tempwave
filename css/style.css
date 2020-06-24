@@ -120,8 +120,7 @@ img{
 .about-screen{
   position: absolute;
   top: 0;
-  /* right: -280px; */
-  right: -130px;
+  right: -280px;
 }
 
 /*-------------------------
