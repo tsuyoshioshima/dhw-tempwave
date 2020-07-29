@@ -19,7 +19,7 @@ html{
 }
 body{
   font-family: 'Open Sans', 'Noto Sans JP', sans-serif ;
-  columns: #000000;
+  color: #000000;
   font-size: 1.6rem;
   font-feature-settings: "palt";
   letter-spacing: 0.05em;
@@ -359,7 +359,7 @@ img{
   .feature-item:last-of-type{
     margin-bottom: 0;
   }
-  .feature-title{
+  .feature-item__title{
     line-height: 1.5;
   }
   /*-------------------------
